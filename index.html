@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Carousel Study</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">CAROUSEL</a>
+      <ul class="links">
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">SPORT</a></li>
+        <li><a href="#">NO IDEA</a></li>
+        <li><a href="#">SALE</a></li>
+      </ul>
+      <ul class="user">
+        <li>
+          <a href="#">
+            <ion-icon name="search-outline"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="cart-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev"><ion-icon name="chevron-back-outline"></ion-icon></button>
+        <button class="carousel-button next" data-carousel-button="next"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="./img/pexels-aarti-vijay-2693529.jpg" />
+          </li>
+          <li class="slide">
+            <img src="./img/pexels-jaime-reimer-2662116.jpg" />
+          </li>
+          <li class="slide">
+            <img src="./img/pexels-sam-kolder-2387873.jpg" />
+          </li>
+          <li class="slide">
+            <img src="./img/pexels-stein-egil-liland-3408744.jpg" />
+          </li>
+          <li class="slide">
+            <img src="./img/pexels-tobias-bjørkli-2113566.jpg" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
